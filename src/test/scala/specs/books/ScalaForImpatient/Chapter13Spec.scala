@@ -471,32 +471,32 @@ class Chapter13Spec extends FunSpec with ShouldMatchers with helpers {
       //   stream.mkString should equal("12345")
       //   stream.mkString(",") should equal("1,2,3,4,5")
       // }
-      it("toStreamで通常のコレクションを Stream型に変換できる"){
-        import scala.io._
-        val source = try {
-          Source.fromFile("src/test/resources/10Gen_Venter_SNV.gvf","UTF-8")
-        } catch {
-          case ex:Throwable => throw ex
-        }
-        val lines:Stream[String] = source.getLines.toStream
-        lines(6) should equal {
-          "# J. Craig Venter"
-        }
-        lines.find{line:String =>
-          val pattern:Regex = """^(chr\d+).*;Reference_seq=([ATGC]);Genotype=heterozygous;$""".r
-          line match {
-            case pattern(chr,ref) => {
-              if(chr == "chr1" && ref == "G") true
-              else false
-            }
-            case _ => false
-          }
-        } should equal{
-          Some("chr1	Celera	SNV	814932	814932	.	+	.	ID=1103675000193;Variant_seq=C,G;Reference_seq=G;Genotype=heterozygous;")
-        }
-        source.close()
+      // it("toStreamで通常のコレクションを Stream型に変換できる"){
+      //   import scala.io._
+      //   val source = try {
+      //     Source.fromFile("src/test/resources/10Gen_Venter_SNV.gvf","UTF-8")
+      //   } catch {
+      //     case ex:Throwable => throw ex
+      //   }
+      //   val lines:Stream[String] = source.getLines.toStream
+      //   lines(6) should equal {
+      //     "# J. Craig Venter"
+      //   }
+      //   lines.find{line:String =>
+      //     val pattern:Regex = """^(chr\d+).*;Reference_seq=([ATGC]);Genotype=heterozygous;$""".r
+      //     line match {
+      //       case pattern(chr,ref) => {
+      //         if(chr == "chr1" && ref == "G") true
+      //         else false
+      //       }
+      //       case _ => false
+      //     }
+      //   } should equal{
+      //     Some("chr1	Celera	SNV	814932	814932	.	+	.	ID=1103675000193;Variant_seq=C,G;Reference_seq=G;Genotype=heterozygous;")
+      //   }
+      //   source.close()
 
-      }
+      // }
       it("Stream.find"){
         stream.find(_ == 3) should equal(Some(3))
       }

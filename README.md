@@ -13,7 +13,14 @@ Scala の言語機能や関連ライブラリーについて、その用法を�
 
 * sbt 
 * mongodb
-  mongodb 2.1以上がローカル環境にインストールされていることが必要となる。
+  バージョン2.1以上がローカル環境にインストールされていることが必要となる。
+
+例えば、ubuntu 16.04 では以下のようにインストールする。
+なお、sbtは別途インストールする必要がある。
+
+~~~
+$ sudo apt-get install openjdk-8-jdk openjdk-8-jre mongodb-server  
+~~~
 
 
 # 使い方 

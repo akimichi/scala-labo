@@ -4,14 +4,19 @@ scala-labo
 Scalaの実験室。
 Scala の言語機能や関連ライブラリーについて、その用法を試すためのレポジトリ。
 
-= 実行条件
+
+
+![](https://raw.github.com/wiki/akimichi/scala-labo/images/screenshot.png)
+
+
+# 実行条件
 
 * sbt 
 * mongodb
   mongodb 2.1以上がローカル環境にインストールされていることが必要となる。
 
 
-= 使い方 
+# 使い方 
 
 ~~~
 > sbt

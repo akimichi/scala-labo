@@ -1,0 +1,11 @@
+--type-set=src=.scala,.java
+--nogroup
+
+--ignore-dir=target
+--ignore-dir=project
+--ignore-dir=.git
+--ignore-file=ext:log
+
+
+# Always color, even if piping to a another program
+--color

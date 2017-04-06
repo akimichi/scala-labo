@@ -1,0 +1,139 @@
+{
+  "epoch": 1350367988576,
+  "_typeHint": "jp.ac.utokyo.h.first4.app.cloudehr.models.composition.EntryDomainModel",
+  "etag": "977cb2e7f872e2a93f3f7ca12db72ffb",
+  "json": "504B0304140008000800A47950410000000000000000000000000D00000031333530333637393839333437ED57DB8E9B3010FD1584FAB8202E9B04F2966ED26E1E9A4449BA2F55151933246E0153DB448D56FC7B6DCC26D94B5AB6DBA8FBB012087C3967668E6706716B9839CAC034FA8629800B03D35C402E0C2220338D0BC364D90D304E685EEF716DA7995DEE0A98DC41295BDBB4801C36CC66998D6956504E8444D90DA12D6FB6B3A71107B645A2E6933CBC8CBE01168AE4B6056B2609D77282116CCF1013BB05A4494D043F05B01CA573481A3221A96A9AD968BE984E5AB8CDCBA2A04CD82496CE9284E0DA4F6DA8E6BDD06AF102614D301C7D9A7E9C0F66D7E3AB7A95C4AD223961E89A009BD67A8C8735DD16A5A526E87613B7DB036CF5A220B1FC008756D4C160251077BD4E270E1CAF675655A55005A382629A36AE20E1388EDBCAAF1809C4052BB12819D82A050EA3B11C2D48BE4E61AF434DA17619FB6DC6C1F8855E3BF6A2F7622F18140CB8544D2B364A219383FB1E819C34F4E858C3567655D2705BC86CB287DBA57CE8E4CA318D65EC0A65E4659A1A6A3645F9BA446BB83F7B38B3DA0F3DACCF0531BC016560426318D799B297452E973A793453F57B847B0A71ECA9AA016019C9694AD7BB063E1E4C062BBC410C61B9687110BC45653C90E64ABA33DB30C4B5C4D2242C046BCC9A9F971FAC4087CC25EC813EFB98548E2B4BD2CAE87A6EA97BFA7E319ADF0C96E3E9C44E51B4521DC9DEEA608FD57E3AB2C574D5F543CBFDD7F140FE87F3738E4FA35DA92A8072E2A83A3CFF2FAA6343B8A0B2AF5EEBE7FD4268160FB5702A0265FA10C17F6B5F75026F252757A02FFBB6F112616694E462B47DDC24D4D441997DA2DED90CCFD630B5E5C6E05B933C5F930C9F8DF09FAA4B2738732A687B6F9970BE4C084E2104C99E1BEC8F12C9A627766A0A145E463E94AF4BF25041D3735CD772D4B5749C7E7D1D76AC320E586D73BDD00F9C5E577D489CEA35F4E1AAFAAA60949135C95F973CFAD8B6FA8F04E2D5D19FC62AF9DEF8FA8E369FE28ED3C3094A2E91E742900458867F198610EB047B8C6DA54FBF1FC5612702BF637921B896DF95318451125AD8F582187C88FC18F7FBAE59FD02504B070865306818FF0200005E0D0000504B01021400140008000800A479504165306818FF0200005E0D00000D000000000000000000000000000000000031333530333637393839333437504B050600000000010001003B0000003A0300000000",
+  "service_name": "test",
+  "entry": {
+    "name": "test content item",
+    "rmVersion": "1.0",
+    "rmTypeName": "org.openehr.rm.composition.content.entry.Observation",
+    "subject": {
+      "rmTypeName": "org.openehr.rm.common.generic.PartySelf",
+      "externalRef": {
+        "type": "PERSON",
+        "rmTypeName": "org.openehr.rm.support.identification.PartyRef",
+        "namespace": "DEMOGRAPHIC",
+        "id": {
+          "rmTypeName": "org.openehr.rm.support.identification.HierObjectID",
+          "value": "66f167ec-7b8f-38c9-b5ce-fed6255d8027"
+        }
+      }
+    },
+    "protocol": {
+      "at0001": {
+        "rmTypeName": "org.openehr.rm.datastructure.itemstructure.ItemSingle",
+        "name": "item structure protocol",
+        "item": {
+          "at0007": {
+            "rmTypeName": "org.openehr.rm.datastructure.itemstructure.representation.Element",
+            "name": "elem name",
+            "value": {
+              "rmTypeName": "org.openehr.rm.datatypes.text.DvText",
+              "encoding": null,
+              "language": null,
+              "value": "elem value"
+            },
+            "archetypeNodeId": "at0007",
+            "uid": null
+          }
+        },
+        "archetypeNodeId": "at0001",
+        "uid": null
+      }
+    },
+    "encoding": {
+      "terminologyId": "IANA_character-sets",
+      "rmTypeName": "org.openehr.rm.datatypes.text.CodePhrase",
+      "codeString": "UTF-8"
+    },
+    "state": null,
+    "archetypeID": "openEHR-EHR-OBSERVATION.lab_test.v1",
+    "language": {
+      "terminologyId": "ISO_639-1",
+      "rmTypeName": "org.openehr.rm.datatypes.text.CodePhrase",
+      "codeString": "en"
+    },
+    "archetypeNodeId": "at0000",
+    "uid": "66f167ec-7b8f-38c9-b5ce-fed6255d8027",
+    "data": {
+      "at0023": {
+        "rmTypeName": "org.openehr.rm.datastructure.history.History",
+        "name": "history name",
+        "archetypeNodeId": "at0023",
+        "uid": {
+          "rmTypeName": "org.openehr.rm.support.identification.HierObjectID",
+          "value": "66f167ec-7b8f-38c9-b5ce-fed6255d8027"
+        },
+        "events": [
+          {
+            "at0003": {
+              "rmTypeName": "org.openehr.rm.datastructure.history.PointEvent",
+              "name": "event name",
+              "state": {
+                "at0009": {
+                  "rmTypeName": "org.openehr.rm.datastructure.itemstructure.ItemSingle",
+                  "name": "event state",
+                  "item": {
+                    "at0007": {
+                      "rmTypeName": "org.openehr.rm.datastructure.itemstructure.representation.Element",
+                      "name": "elem name",
+                      "value": {
+                        "rmTypeName": "org.openehr.rm.datatypes.text.DvText",
+                        "encoding": null,
+                        "language": null,
+                        "value": "elem value"
+                      },
+                      "archetypeNodeId": "at0007",
+                      "uid": null
+                    }
+                  },
+                  "archetypeNodeId": "at0009",
+                  "uid": null
+                }
+              },
+              "archetypeNodeId": "at0003",
+              "data": {
+                "at0008": {
+                  "rmTypeName": "org.openehr.rm.datastructure.itemstructure.ItemSingle",
+                  "name": "event data",
+                  "item": {
+                    "at0007": {
+                      "rmTypeName": "org.openehr.rm.datastructure.itemstructure.representation.Element",
+                      "name": "elem name",
+                      "value": {
+                        "rmTypeName": "org.openehr.rm.datatypes.text.DvText",
+                        "encoding": null,
+                        "language": null,
+                        "value": "elem value"
+                      },
+                      "archetypeNodeId": "at0007",
+                      "uid": null
+                    }
+                  },
+                  "archetypeNodeId": "at0008",
+                  "uid": null
+                }
+              },
+              "time": {
+                "rmTypeName": "org.openehr.rm.datatypes.quantity.datetime.DvDateTime",
+                "value": { "$date" : "2012-08-31T17:30:01.882Z"},
+                "value_msec": 1293807600000
+              },
+              "uid": {
+                "rmTypeName": "org.openehr.rm.support.identification.HierObjectID",
+                "value": "66f167ec-7b8f-38c9-b5ce-fed6255d8027"
+              }
+            }
+          }
+        ],
+        "origin": {
+          "rmTypeName": "org.openehr.rm.datatypes.quantity.datetime.DvDateTime",
+          "value": "2011-01-01T00:00:00",
+          "value_msec": 1293807600000
+        }
+      }
+    },
+    "composition_fk": "66f167ec-7b8f-38c9-b5ce-fed6255d8027::bd95be35-29e1-3601-9bf9-c128de3eb3dc::1"
+  }
+}

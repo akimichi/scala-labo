@@ -1,0 +1,202 @@
+{
+  "ehr_fk": "eddc2d78-f0f0-35ed-b068-5fab0ace45c3",
+  "epoch": 1350367988517,
+  "_typeHint": "jp.ac.utokyo.h.first4.app.cloudehr.models.composition.VersionedCompositionDomainModel",
+  "etag": "7f1ff190ceb887bc8798ca0a3f5ae860",
+  "json": "504B0304140008000800A57950410000000000000000000000000D00000031333530333637393930313631ED596D6FE23810FE2B119F375142160A7CE380BBF2A1051576BF9C56C83803781512CE76B8432BFEFB8E5F480257BAB4A505695B818A5F67FCCC339EB1FDC3A9F0E578B3827BB2848AD3722A299F7BE90A1258708F2F3DF5EF2B70C1D204A24EBA5CA582492C549C4F4E851665A106FFEDFC509589E46C9A995E2D552551809E5C82904E4424D1C39F962CB2D52AE5D263112492CD18256A466F30FD0E543EC04C4F91E060B122D4CCF03D4B98749410DDC8222BFF45826E197023ACDFD5D3AD499C9909EAF55950BF01EADE4C1B33376CD0A63BAD51706710D5ABB55AD4F0AB3795EDF6D76B440097288A2E4832070D5C1A7B03CEE62C21B185DD2C45DC019F835ED08CC40254652A17C0FBC92A93B6EB1716693B384916C78EEA42A44283E4162A5A8C152C3CB9285431F0FC13AC5332BD77488B6437A6D4C931953969809F641B0BD01C2B38A3DE9070B919416C8C0FFF49E0089426C301D1F48F97724C8B799C62DDDEDDE0AF87F6F0B6DFB90A8E6992210C9CC9946F7630005FB2248DD3F9A6AFF5ABF447834918D4EB6E70022A8A1A0A40E1498418CD1BC170C189D8D92F82117A7832D763BF8C2A5B539DA8DE5603E41C976366E6FF253A85C07F3282F8C88DAA0289E3BDEEBA8B3FCD547B0055FD20707DF519FB7E4B7F8A1E93A500AABA05D566D8F06FEABEFA3BCD23735EF7D668ACCE6E5D8A7049F46E6B0AAA4FAFA9E6378A350990D21AE4198A69EB76D7CABED1B858231AD8CE55EC16316E501999C37E6DA178AE80DA5960C6122CA8798F12D22A746E36560BA728AB7CD427EA61F3FC2E01897109C2E902D428E5DC76CDBDDB07577D3B83BBE160D41FF707F7DE8AA7D31896939809E9AD8D3AF9D87B9CDB2A4C64E0FBA619F70F98170E7F018B97F7F6429B0B9BFF7318D8B89B5D7863CEB7C444E6991193B02CF2242295FB5A25910232A5696C8BBA2D38D9B842F28CCA8C83A745E4A53E9646884D0CFB7159F572F26E4E21FC93692B6B71F36A2D38AC380804C240DB43AA6B54CA1A01561629420EF6F3A9FD4A566B3D4C717BDC0D0D2C05CBCC4CDBA74704C746884C13ED4DF3A161EF6134B8FF7D32A2D7A6B4D6753DFCF20D9E39305F5D93FF27B8FA3C63FB3AC6730EA8F778E469DFB72798F47342B1D1C5E029CE9E968DFF741B86C32AFF87E36E707DB171F0C7A8F7F0B5AD63634CA61385F2D371D1ECA4FBA71A555B0D5FB07B2D300C6330432A0AB90B6AB9C56D63B1571D534889BE9238042A8F3D083CAF016698B244EAE4F860135755053239EF76329B6F16D08C642BF02388BD5D106B3E7B44F8985FFA8D37A6427EC7F4C184376242E3D8087995A7FE4BEFC3DBED377D65A7EFF6AE0B9EEB38305980CE95B82564CDE646B5112A7562E6F6545632EA759E939104FB09FFE570FD760EF31A15AC695EA449AB358D9AB5298435B7DA84C00DEB48D3E674D67469506D4410C2348C68AB15989D2A6633E86C688CB96391455CE09A636D96EC287DA8D2A794655CF2A6A31656ED4D873A1232D9CE22B63B429AE784B13DFB5D0637A2F4718C264E7E1B7FD1ABC1CF4D8B98D80874782BCD141CCBE90804E56C557ABB7ADF805D967FFAFBD1EE3A4093A00B92B0D81C2855B0E8687E4838CDFFDF352853ABDAC75BD07922A80615B3530A8A79C5A36029453359C8BF08A1097165A030CAFD36EFB2DA333890ABF48B4BE70C9A468A3D62777FADDF9CB73F01504B070887DB5225CD0400002E200000504B01021400140008000800A579504187DB5225CD0400002E2000000D000000000000000000000000000000000031333530333637393930313631504B050600000000010001003B000000080500000000",
+  "service_name": "test",
+  "archetype_id": "openEHR-EHR-COMPOSITION.problem_list.v1",
+  "versioned_composition": {
+    "ehr_fk": "eddc2d78-f0f0-35ed-b068-5fab0ace45c3",
+    "rmTypeName": "org.openehr.rm.ehr.VersionedComposition",
+    "compositions": [
+      {
+        "contribution": {
+          "type": "test data",
+          "rmTypeName": "org.openehr.rm.support.identification.ObjectRef",
+          "namespace": "junit test",
+          "id": {
+            "rmTypeName": "org.openehr.rm.support.identification.HierObjectID",
+            "value": "66f167ec-7b8f-38c9-b5ce-fed6255d8027"
+          }
+        },
+        "rmTypeName": "org.openehr.rm.common.changecontrol.OriginalVersion",
+        "isMerged": false,
+        "otherInputVersionUids": null,
+        "attestations": null,
+        "data": {
+          "rmVersion": "1.0",
+          "rmTypeName": "org.openehr.rm.composition.Composition",
+          "name": "composition name",
+          "composer": {
+            "rmTypeName": "org.openehr.rm.common.generic.PartySelf",
+            "externalRef": {
+              "type": "type",
+              "rmTypeName": "org.openehr.rm.support.identification.PartyRef",
+              "namespace": "DEMOGRAPHIC",
+              "id": {
+                "rmTypeName": "org.openehr.rm.support.identification.HierObjectID",
+                "value": "66f167ec-7b8f-38c9-b5ce-fed6255d8027"
+              }
+            }
+          },
+          "territory": {
+            "terminologyId": "ISO_3166-1",
+            "rmTypeName": "org.openehr.rm.datatypes.text.CodePhrase",
+            "codeString": "US"
+          },
+          "context": {
+            "startTime": {
+              "rmTypeName": "org.openehr.rm.datatypes.quantity.datetime.DvDateTime",
+              "value": "2011-01-01T00:00:00",
+              "value_msec": 1293807600000
+            },
+            "rmTypeName": "org.openehr.rm.composition.EventContext",
+            "endTime": {
+              "rmTypeName": "org.openehr.rm.datatypes.quantity.datetime.DvDateTime",
+              "value": "2011-01-01T12:00:00",
+              "value_msec": 1293850800000
+            },
+            "setting": {
+              "rmTypeName": "org.openehr.rm.datatypes.text.DvCodedText",
+              "encoding": null,
+              "language": null,
+              "value": "setting",
+              "definingCode": {
+                "terminologyId": "openehr",
+                "rmTypeName": "org.openehr.rm.datatypes.text.CodePhrase",
+                "codeString": "227"
+              }
+            }
+          },
+          "language": {
+            "terminologyId": "ISO_639-1",
+            "rmTypeName": "org.openehr.rm.datatypes.text.CodePhrase",
+            "codeString": "en"
+          },
+          "archetypeID": "openEHR-EHR-COMPOSITION.problem_list.v1",
+          "archetypeNodeId": "at1001",
+          "category": {
+            "rmTypeName": "org.openehr.rm.datatypes.text.DvCodedText",
+            "encoding": null,
+            "language": null,
+            "value": "composition category",
+            "definingCode": {
+              "terminologyId": "openehr",
+              "rmTypeName": "org.openehr.rm.datatypes.text.CodePhrase",
+              "codeString": "431"
+            }
+          },
+          "uid": {
+            "rmTypeName": "org.openehr.rm.support.identification.HierObjectID",
+            "value": "66f167ec-7b8f-38c9-b5ce-fed6255d8027"
+          },
+          "content": [
+            {
+              "at0101": {
+                "items": [
+                  {
+                    "at0000": {
+                      "entry_fk": "66f167ec-7b8f-38c9-b5ce-fed6255d8027",
+                      "rmVersion": "1.0",
+                      "rmTypeName": "org.openehr.rm.composition.content.entry.Observation",
+                      "name": "test content item",
+                      "archetypeID": "openEHR-EHR-OBSERVATION.lab_test.v1",
+                      "archetypeNodeId": "at0000",
+                      "uid": {
+                        "rmTypeName": "org.openehr.rm.support.identification.HierObjectID",
+                        "value": "66f167ec-7b8f-38c9-b5ce-fed6255d8027"
+                      }
+                    }
+                  }
+                ],
+                "rmVersion": "1.0",
+                "rmTypeName": "org.openehr.rm.composition.content.navigation.Section",
+                "name": "test content item",
+                "archetypeID": "openEHR-EHR-SECTION.lab_test.v1",
+                "archetypeNodeId": "at0101",
+                "uid": {
+                  "rmTypeName": "org.openehr.rm.support.identification.HierObjectID",
+                  "value": "66f167ec-7b8f-38c9-b5ce-fed6255d8027"
+                }
+              }
+            }
+          ]
+        },
+        "uid": {
+          "rmTypeName": "org.openehr.rm.support.identification.ObjectVersionID",
+          "value": "66f167ec-7b8f-38c9-b5ce-fed6255d8027::bd95be35-29e1-3601-9bf9-c128de3eb3dc::1"
+        },
+        "lifeCycleState": {
+          "rmTypeName": "org.openehr.rm.datatypes.text.DvCodedText",
+          "encoding": null,
+          "language": null,
+          "value": "version lifecycle state",
+          "definingCode": {
+            "terminologyId": "openehr",
+            "rmTypeName": "org.openehr.rm.datatypes.text.CodePhrase",
+            "codeString": "532"
+          }
+        },
+        "commitAudit": {
+          "changeType": {
+            "rmTypeName": "org.openehr.rm.datatypes.text.DvCodedText",
+            "encoding": null,
+            "language": null,
+            "value": "audit change type",
+            "definingCode": {
+              "terminologyId": "openehr",
+              "rmTypeName": "org.openehr.rm.datatypes.text.CodePhrase",
+              "codeString": "249"
+            }
+          },
+          "systemId": "system ID",
+          "description": {
+            "rmTypeName": "org.openehr.rm.datatypes.text.DvText",
+            "encoding": null,
+            "language": null,
+            "value": "description"
+          },
+          "rmTypeName": "org.openehr.rm.common.generic.AuditDetails",
+          "timeCommitted": {
+            "rmTypeName": "org.openehr.rm.datatypes.quantity.datetime.DvDateTime",
+            "value": "2011-01-01T00:00:00",
+            "value_msec": 1293807600000
+          },
+          "committer": {
+            "rmTypeName": "org.openehr.rm.common.generic.PartySelf",
+            "externalRef": {
+              "type": "type",
+              "rmTypeName": "org.openehr.rm.support.identification.PartyRef",
+              "namespace": "DEMOGRAPHIC",
+              "id": {
+                "rmTypeName": "org.openehr.rm.support.identification.HierObjectID",
+                "value": "66f167ec-7b8f-38c9-b5ce-fed6255d8027"
+              }
+            }
+          }
+        },
+        "precedingVersionUid": null
+      }
+    ],
+    "ownerID": {
+      "type": "EHR",
+      "rmTypeName": "org.openehr.rm.support.identification.ObjectRef",
+      "namespace": "junit test",
+      "id": {
+        "rmTypeName": "org.openehr.rm.support.identification.HierObjectID",
+        "value": "66f167ec-7b8f-38c9-b5ce-fed6255d8027"
+      }
+    },
+    "timeCreated": {
+      "rmTypeName": "org.openehr.rm.datatypes.quantity.datetime.DvDateTime",
+      "value": "2011-01-01T00:00:00",
+      "value_msec": 1293807600000
+    },
+    "uid": {
+      "rmTypeName": "org.openehr.rm.support.identification.HierObjectID",
+      "value": "66f167ec-7b8f-38c9-b5ce-fed6255d8027"
+    },
+    "persistent": false
+  }
+}

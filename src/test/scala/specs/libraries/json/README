@@ -1,0 +1,10 @@
+jsonライブラリを比較する
+
+parsing.json.JSON - Warning nobody really uses this option in production code
+spray-json - Extracted from the Spray project
+Jerkson - Warning a nice library (built on top of Java Jackson) but now abandonware. If you are going to use this, probably follow the Scalding project's example and use the backchat.io fork
+sjson - By Debasish Ghosh
+lift-json - Can be used separately from the Lift project
+json4s - An extraction from lift-json, which is attempting to create a standard JSON AST which other JSON libraries can use. Includes a Jackson-backed implementatio
+play-json - Play 2.1 JSON API extracted as standalone library. When the Play project gets time to move the JSON library into a separate project, this project will die.
+

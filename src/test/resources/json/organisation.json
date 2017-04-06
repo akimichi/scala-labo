@@ -1,0 +1,506 @@
+{
+    "archetypeID": "openEHR-DEMOGRAPHIC-ORGANISATION.FIRST4_organisation.v1", 
+    "archetypeNodeId": "at1001", 
+    "contacts": [
+        {
+            "addresses": [
+                {
+                    "archetypeNodeId": "at2020", 
+                    "details": {
+                        "archetypeNodeId": "at2022", 
+                        "items": [
+                            {
+                                "at2023": {
+                                    "archetypeNodeId": "at2023", 
+                                    "name": "Address detail name", 
+                                    "rmTypeName": "org.openehr.rm.datastructure.itemstructure.representation.Element", 
+                                    "uid": null, 
+                                    "value": [
+                                        {
+                                            "encoding": null, 
+                                            "language": null, 
+                                            "rmTypeName": "org.openehr.rm.datatypes.text.DvText", 
+                                            "value": "Address detail value"
+                                        }
+                                    ]
+                                }
+                            }
+                        ], 
+                        "name": "Address details name", 
+                        "rmTypeName": "org.openehr.rm.datastructure.itemstructure.ItemTree", 
+                        "uid": null
+                    }, 
+                    "name": "Demographic.Address", 
+                    "rmTypeName": "org.openehr.rm.demographic.Address", 
+                    "uid": {
+                        "rmTypeName": "org.openehr.rm.support.identification.HierObjectID", 
+                        "value": "c18a5443-7234-3569-b34e-bd1632734a30"
+                    }
+                }
+            ], 
+            "archetypeNodeId": "at1020", 
+            "name": "Demographic.Contact", 
+            "rmTypeName": "org.openehr.rm.demographic.Contact", 
+            "timeValidity": {
+                "lower": {
+                    "rmTypeName": "org.openehr.rm.datatypes.quantity.datetime.DvDate", 
+                    "time_zone": "Asia/Tokyo", 
+                    "value": "2013-01-01", 
+                    "value_msec": 1356966000000
+                }, 
+                "rmTypeName": "org.openehr.rm.datatypes.quantity.DvInterval", 
+                "upper": {
+                    "rmTypeName": "org.openehr.rm.datatypes.quantity.datetime.DvDate", 
+                    "time_zone": "Asia/Tokyo", 
+                    "value": "2013-12-31", 
+                    "value_msec": 1388415600000
+                }
+            }, 
+            "uid": {
+                "rmTypeName": "org.openehr.rm.support.identification.HierObjectID", 
+                "value": "c18a5443-7234-3569-b34e-bd1632734a30"
+            }
+        }
+    ], 
+    "details": {
+        "archetypeNodeId": "at1000", 
+        "items": [
+            {
+                "at0007": {
+                    "archetypeNodeId": "at0007", 
+                    "name": "Organisation detail name", 
+                    "rmTypeName": "org.openehr.rm.datastructure.itemstructure.representation.Element", 
+                    "uid": null, 
+                    "value": [
+                        {
+                            "encoding": null, 
+                            "language": null, 
+                            "rmTypeName": "org.openehr.rm.datatypes.text.DvText", 
+                            "value": "Organisation detail value"
+                        }
+                    ]
+                }
+            }
+        ], 
+        "name": "Organisation details name", 
+        "rmTypeName": "org.openehr.rm.datastructure.itemstructure.ItemTree", 
+        "uid": null
+    }, 
+    "identities": [
+        {
+            "archetypeNodeId": "at1010", 
+            "details": {
+                "archetypeNodeId": "at1012", 
+                "items": [
+                    {
+                        "at1013": {
+                            "archetypeNodeId": "at1013", 
+                            "name": "PartyIdentity detail name", 
+                            "rmTypeName": "org.openehr.rm.datastructure.itemstructure.representation.Element", 
+                            "uid": null, 
+                            "value": [
+                                {
+                                    "encoding": null, 
+                                    "language": null, 
+                                    "rmTypeName": "org.openehr.rm.datatypes.text.DvText", 
+                                    "value": "PartyIdentity detail value"
+                                }
+                            ]
+                        }
+                    }
+                ], 
+                "name": "PartyIdentity details name", 
+                "rmTypeName": "org.openehr.rm.datastructure.itemstructure.ItemTree", 
+                "uid": null
+            }, 
+            "name": "legal identity", 
+            "rmTypeName": "org.openehr.rm.demographic.PartyIdentity", 
+            "uid": {
+                "rmTypeName": "org.openehr.rm.support.identification.HierObjectID", 
+                "value": "c18a5443-7234-3569-b34e-bd1632734a30"
+            }
+        }
+    ], 
+    "languages": [
+        {
+            "encoding": null, 
+            "language": null, 
+            "rmTypeName": "org.openehr.rm.datatypes.text.DvText", 
+            "value": "ja"
+        }
+    ], 
+    "name": "Demographic.Organisation", 
+    "relationships": [
+        {
+            "archetypeNodeId": "at1030", 
+            "details": {
+                "archetypeNodeId": "at1032", 
+                "items": [
+                    {
+                        "at1033": {
+                            "archetypeNodeId": "at1033", 
+                            "name": "PartyIdentity detail name", 
+                            "rmTypeName": "org.openehr.rm.datastructure.itemstructure.representation.Element", 
+                            "uid": null, 
+                            "value": [
+                                {
+                                    "encoding": null, 
+                                    "language": null, 
+                                    "rmTypeName": "org.openehr.rm.datatypes.text.DvText", 
+                                    "value": "PartyIdentity detail value"
+                                }
+                            ]
+                        }
+                    }
+                ], 
+                "name": "PartyIdentity details name", 
+                "rmTypeName": "org.openehr.rm.datastructure.itemstructure.ItemTree", 
+                "uid": null
+            }, 
+            "name": "Demographic.PartyRelationship", 
+            "rmTypeName": "org.openehr.rm.demographic.PartyRelationship", 
+            "source": {
+                "id": {
+                    "rmTypeName": "org.openehr.rm.support.identification.HierObjectID", 
+                    "value": "c18a5443-7234-3569-b34e-bd1632734a30"
+                }, 
+                "namespace": "junit test", 
+                "rmTypeName": "org.openehr.rm.support.identification.ObjectRef", 
+                "type": "DEMOGRAPHIC"
+            }, 
+            "target": {
+                "id": {
+                    "rmTypeName": "org.openehr.rm.support.identification.HierObjectID", 
+                    "value": "87497010-fe6f-3e63-bea2-01769f99a6c3"
+                }, 
+                "namespace": "junit test", 
+                "rmTypeName": "org.openehr.rm.support.identification.ObjectRef", 
+                "type": "DEMOGRAPHIC"
+            }, 
+            "timeValidity": {
+                "lower": {
+                    "rmTypeName": "org.openehr.rm.datatypes.quantity.datetime.DvDate", 
+                    "time_zone": "Asia/Tokyo", 
+                    "value": "2010-01-01", 
+                    "value_msec": 1262271600000
+                }, 
+                "rmTypeName": "org.openehr.rm.datatypes.quantity.DvInterval", 
+                "upper": {
+                    "rmTypeName": "org.openehr.rm.datatypes.quantity.datetime.DvDate", 
+                    "time_zone": "Asia/Tokyo", 
+                    "value": "2019-12-31", 
+                    "value_msec": 1577718000000
+                }
+            }, 
+            "uid": {
+                "rmTypeName": "org.openehr.rm.support.identification.HierObjectID", 
+                "value": "c18a5443-7234-3569-b34e-bd1632734a30"
+            }
+        }
+    ], 
+    "reverseRelationships": [
+        {
+            "id": {
+                "rmTypeName": "org.openehr.rm.support.identification.ObjectVersionID", 
+                "value": "e906ca61-fc3b-3621-b328-1baedd9f245a::326e21c8-6df7-33bd-83d9-0e369a5da215::1"
+            }, 
+            "namespace": "DEMOGRAPHIC", 
+            "path": "/at0001/xxxxx", 
+            "rmTypeName": "org.openehr.rm.support.identification.LocatableRef", 
+            "type": "relationship"
+        }
+    ], 
+    "rmTypeName": "org.openehr.rm.demographic.Organisation", 
+    "rmVersion": "1.0", 
+    "roles": [
+        {
+            "archetypeID": "openEHR-DEMOGRAPHIC-ORGANISATION.FIRST4_organisation.v1", 
+            "archetypeNodeId": "at5001", 
+            "capabilities": [
+                {
+                    "archetypeNodeId": "at7012", 
+                    "credentials": {
+                        "archetypeNodeId": "at7000", 
+                        "items": [
+                            {
+                                "at7017": {
+                                    "archetypeNodeId": "at7017", 
+                                    "name": "Capability name", 
+                                    "rmTypeName": "org.openehr.rm.datastructure.itemstructure.representation.Element", 
+                                    "uid": null, 
+                                    "value": [
+                                        {
+                                            "encoding": null, 
+                                            "language": null, 
+                                            "rmTypeName": "org.openehr.rm.datatypes.text.DvText", 
+                                            "value": "Capability value"
+                                        }
+                                    ]
+                                }
+                            }
+                        ], 
+                        "name": "Capability name", 
+                        "rmTypeName": "org.openehr.rm.datastructure.itemstructure.ItemTree", 
+                        "uid": null
+                    }, 
+                    "name": "Demographic.Capability", 
+                    "rmTypeName": "org.openehr.rm.demographic.Capability", 
+                    "timeValidity": {
+                        "lower": {
+                            "rmTypeName": "org.openehr.rm.datatypes.quantity.datetime.DvDate", 
+                            "time_zone": "Asia/Tokyo", 
+                            "value": "2001-01-01", 
+                            "value_msec": 978274800000
+                        }, 
+                        "rmTypeName": "org.openehr.rm.datatypes.quantity.DvInterval", 
+                        "upper": {
+                            "rmTypeName": "org.openehr.rm.datatypes.quantity.datetime.DvDate", 
+                            "time_zone": "Asia/Tokyo", 
+                            "value": "2030-12-31", 
+                            "value_msec": 1924873200000
+                        }
+                    }, 
+                    "uid": {
+                        "rmTypeName": "org.openehr.rm.support.identification.HierObjectID", 
+                        "value": "c18a5443-7234-3569-b34e-bd1632734a30"
+                    }
+                }
+            ], 
+            "contacts": [
+                {
+                    "addresses": [
+                        {
+                            "archetypeNodeId": "at2020", 
+                            "details": {
+                                "archetypeNodeId": "at2022", 
+                                "items": [
+                                    {
+                                        "at2023": {
+                                            "archetypeNodeId": "at2023", 
+                                            "name": "Address detail name", 
+                                            "rmTypeName": "org.openehr.rm.datastructure.itemstructure.representation.Element", 
+                                            "uid": null, 
+                                            "value": [
+                                                {
+                                                    "encoding": null, 
+                                                    "language": null, 
+                                                    "rmTypeName": "org.openehr.rm.datatypes.text.DvText", 
+                                                    "value": "Address detail value"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ], 
+                                "name": "Address details name", 
+                                "rmTypeName": "org.openehr.rm.datastructure.itemstructure.ItemTree", 
+                                "uid": null
+                            }, 
+                            "name": "Demographic.Address", 
+                            "rmTypeName": "org.openehr.rm.demographic.Address", 
+                            "uid": {
+                                "rmTypeName": "org.openehr.rm.support.identification.HierObjectID", 
+                                "value": "c18a5443-7234-3569-b34e-bd1632734a30"
+                            }
+                        }
+                    ], 
+                    "archetypeNodeId": "at1020", 
+                    "name": "Demographic.Contact", 
+                    "rmTypeName": "org.openehr.rm.demographic.Contact", 
+                    "timeValidity": {
+                        "lower": {
+                            "rmTypeName": "org.openehr.rm.datatypes.quantity.datetime.DvDate", 
+                            "time_zone": "Asia/Tokyo", 
+                            "value": "2013-01-01", 
+                            "value_msec": 1356966000000
+                        }, 
+                        "rmTypeName": "org.openehr.rm.datatypes.quantity.DvInterval", 
+                        "upper": {
+                            "rmTypeName": "org.openehr.rm.datatypes.quantity.datetime.DvDate", 
+                            "time_zone": "Asia/Tokyo", 
+                            "value": "2013-12-31", 
+                            "value_msec": 1388415600000
+                        }
+                    }, 
+                    "uid": {
+                        "rmTypeName": "org.openehr.rm.support.identification.HierObjectID", 
+                        "value": "c18a5443-7234-3569-b34e-bd1632734a30"
+                    }
+                }
+            ], 
+            "details": {
+                "archetypeNodeId": "at5000", 
+                "items": [
+                    {
+                        "at5007": {
+                            "archetypeNodeId": "at5007", 
+                            "name": "Role detail name", 
+                            "rmTypeName": "org.openehr.rm.datastructure.itemstructure.representation.Element", 
+                            "uid": null, 
+                            "value": [
+                                {
+                                    "encoding": null, 
+                                    "language": null, 
+                                    "rmTypeName": "org.openehr.rm.datatypes.text.DvText", 
+                                    "value": "Role detail value"
+                                }
+                            ]
+                        }
+                    }
+                ], 
+                "name": "Role details name", 
+                "rmTypeName": "org.openehr.rm.datastructure.itemstructure.ItemTree", 
+                "uid": null
+            }, 
+            "identities": [
+                {
+                    "archetypeNodeId": "at1010", 
+                    "details": {
+                        "archetypeNodeId": "at1012", 
+                        "items": [
+                            {
+                                "at1013": {
+                                    "archetypeNodeId": "at1013", 
+                                    "name": "PartyIdentity detail name", 
+                                    "rmTypeName": "org.openehr.rm.datastructure.itemstructure.representation.Element", 
+                                    "uid": null, 
+                                    "value": [
+                                        {
+                                            "encoding": null, 
+                                            "language": null, 
+                                            "rmTypeName": "org.openehr.rm.datatypes.text.DvText", 
+                                            "value": "PartyIdentity detail value"
+                                        }
+                                    ]
+                                }
+                            }
+                        ], 
+                        "name": "PartyIdentity details name", 
+                        "rmTypeName": "org.openehr.rm.datastructure.itemstructure.ItemTree", 
+                        "uid": null
+                    }, 
+                    "name": "legal identity", 
+                    "rmTypeName": "org.openehr.rm.demographic.PartyIdentity", 
+                    "uid": {
+                        "rmTypeName": "org.openehr.rm.support.identification.HierObjectID", 
+                        "value": "c18a5443-7234-3569-b34e-bd1632734a30"
+                    }
+                }
+            ], 
+            "name": "Demographic.Role", 
+            "performer": {
+                "id": {
+                    "rmTypeName": "org.openehr.rm.support.identification.HierObjectID", 
+                    "value": "c18a5443-7234-3569-b34e-bd1632734a30"
+                }, 
+                "namespace": "DEMOGRAPHIC", 
+                "rmTypeName": "org.openehr.rm.support.identification.PartyRef", 
+                "type": "XXXXXX"
+            }, 
+            "relationships": [
+                {
+                    "archetypeNodeId": "at1030", 
+                    "details": {
+                        "archetypeNodeId": "at1032", 
+                        "items": [
+                            {
+                                "at1033": {
+                                    "archetypeNodeId": "at1033", 
+                                    "name": "PartyIdentity detail name", 
+                                    "rmTypeName": "org.openehr.rm.datastructure.itemstructure.representation.Element", 
+                                    "uid": null, 
+                                    "value": [
+                                        {
+                                            "encoding": null, 
+                                            "language": null, 
+                                            "rmTypeName": "org.openehr.rm.datatypes.text.DvText", 
+                                            "value": "PartyIdentity detail value"
+                                        }
+                                    ]
+                                }
+                            }
+                        ], 
+                        "name": "PartyIdentity details name", 
+                        "rmTypeName": "org.openehr.rm.datastructure.itemstructure.ItemTree", 
+                        "uid": null
+                    }, 
+                    "name": "Demographic.PartyRelationship", 
+                    "rmTypeName": "org.openehr.rm.demographic.PartyRelationship", 
+                    "source": {
+                        "id": {
+                            "rmTypeName": "org.openehr.rm.support.identification.HierObjectID", 
+                            "value": "c18a5443-7234-3569-b34e-bd1632734a30"
+                        }, 
+                        "namespace": "junit test", 
+                        "rmTypeName": "org.openehr.rm.support.identification.ObjectRef", 
+                        "type": "DEMOGRAPHIC"
+                    }, 
+                    "target": {
+                        "id": {
+                            "rmTypeName": "org.openehr.rm.support.identification.HierObjectID", 
+                            "value": "87497010-fe6f-3e63-bea2-01769f99a6c3"
+                        }, 
+                        "namespace": "junit test", 
+                        "rmTypeName": "org.openehr.rm.support.identification.ObjectRef", 
+                        "type": "DEMOGRAPHIC"
+                    }, 
+                    "timeValidity": {
+                        "lower": {
+                            "rmTypeName": "org.openehr.rm.datatypes.quantity.datetime.DvDate", 
+                            "time_zone": "Asia/Tokyo", 
+                            "value": "2010-01-01", 
+                            "value_msec": 1262271600000
+                        }, 
+                        "rmTypeName": "org.openehr.rm.datatypes.quantity.DvInterval", 
+                        "upper": {
+                            "rmTypeName": "org.openehr.rm.datatypes.quantity.datetime.DvDate", 
+                            "time_zone": "Asia/Tokyo", 
+                            "value": "2019-12-31", 
+                            "value_msec": 1577718000000
+                        }
+                    }, 
+                    "uid": {
+                        "rmTypeName": "org.openehr.rm.support.identification.HierObjectID", 
+                        "value": "c18a5443-7234-3569-b34e-bd1632734a30"
+                    }
+                }
+            ], 
+            "reverseRelationships": [
+                {
+                    "id": {
+                        "rmTypeName": "org.openehr.rm.support.identification.ObjectVersionID", 
+                        "value": "e906ca61-fc3b-3621-b328-1baedd9f245a::326e21c8-6df7-33bd-83d9-0e369a5da215::1"
+                    }, 
+                    "namespace": "DEMOGRAPHIC", 
+                    "path": "/at0001/xxxxx", 
+                    "rmTypeName": "org.openehr.rm.support.identification.LocatableRef", 
+                    "type": "relationship"
+                }
+            ], 
+            "rmTypeName": "org.openehr.rm.demographic.Role", 
+            "rmVersion": "1.0", 
+            "timeValidity": {
+                "lower": {
+                    "rmTypeName": "org.openehr.rm.datatypes.quantity.datetime.DvDate", 
+                    "time_zone": "Asia/Tokyo", 
+                    "value": "2012-01-01", 
+                    "value_msec": 1325343600000
+                }, 
+                "rmTypeName": "org.openehr.rm.datatypes.quantity.DvInterval", 
+                "upper": {
+                    "rmTypeName": "org.openehr.rm.datatypes.quantity.datetime.DvDate", 
+                    "time_zone": "Asia/Tokyo", 
+                    "value": "2015-12-31", 
+                    "value_msec": 1451487600000
+                }
+            }, 
+            "uid": {
+                "rmTypeName": "org.openehr.rm.support.identification.HierObjectID", 
+                "value": "c18a5443-7234-3569-b34e-bd1632734a30"
+            }
+        }
+    ], 
+    "uid": {
+        "rmTypeName": "org.openehr.rm.support.identification.HierObjectID", 
+        "value": "c18a5443-7234-3569-b34e-bd1632734a30"
+    }
+}

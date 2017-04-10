@@ -41,5 +41,12 @@ mongodbのテストを除外したい場合は、以下のようにDatabaseTest�
 sbt> test-only -- -l DatabaseTest
 ~~~
 
+~~~
+docker build -t="akimichi/scalalabo:v1" .
+~~~
 
 
+
+~~~
+$ docker run -it --rm --workdir="/workspace/scala" akimichi/scalalabo:v1 /bin/bash -c "sbt test"
+~~~

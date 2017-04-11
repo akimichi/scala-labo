@@ -47,7 +47,7 @@ sbt> test-only -- -l DatabaseTest
 
 Dockerfile.baseからdockerイメージを生成する。
 オプション -t でイメージ名を指定する。
-
+イメージ名は、なんでもかまわない。
 
 ~~~
 $ docker build -t="akimichi/scala-labo:v1" - < Dockerfile.base
@@ -62,7 +62,8 @@ $ docker run -it --rm  -v $(pwd):/workspace/scala akimichi/scala-labo:v1 sbt
 
 sbt上でテストを実行するだけならば、以下のコマンドを実行する。
 
-
 ~~~
 $ docker run --rm  -v $(pwd):/workspace/scala akimichi/scala-labo:v1 sbt test
+scala-labo> test
 ~~~
+

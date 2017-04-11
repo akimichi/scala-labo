@@ -54,13 +54,13 @@ class JodaTimeSpec extends FunSpec with ShouldMatchers with BeforeAndAfterAll {
       }
       
     }
-    it("ISODateTimeFormatを使ってISO8601に沿った出力をする"){
-      import org.joda.time.format.ISODateTimeFormat
-      val date_time:org.joda.time.DateTime = new DateTime("2009-04-27T18:45:10.313+09:00")
-      date_time.toString(ISODateTimeFormat.basicDateTimeNoMillis()) should equal{
-        "20090427T184510+0900"
-      }
-    }
+    // it("ISODateTimeFormatを使ってISO8601に沿った出力をする"){
+    //   import org.joda.time.format.ISODateTimeFormat
+    //   val date_time:org.joda.time.DateTime = new DateTime("2009-04-27T18:45:10.313+09:00")
+    //   date_time.toString(ISODateTimeFormat.basicDateTimeNoMillis()) should equal{
+    //     "20090427T184510+0900"
+    //   }
+    // }
   }
 
 }

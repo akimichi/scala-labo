@@ -75,12 +75,13 @@ RUN \
   dpkg -i sbt-$SBT_VERSION.deb && \
   rm sbt-$SBT_VERSION.deb && \
   apt-get update 
-RUN sbt clean compile
-# RUN sbt update 
+RUN sbt update 
+# RUN sbt test
+# RUN sbt package
+RUN sbt compile
 
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 VOLUME /workspace
 
 CMD ["bash"]
-#ONBUILD CMD ["sbt", "test]
